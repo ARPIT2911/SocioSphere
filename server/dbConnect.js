@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 module.exports= async()=>{
-    const mongoUri ="mongodb+srv://sanyam17:noU8JFk12Wu4fjRn@cluster0.9nyaeoo.mongodb.net/?retryWrites=true&w=majority";
+    const mongoUri ="mongodb+srv://time_limit_exceeded:Arpit2911%40mongodb@cluster0.0ickb4e.mongodb.net/?retryWrites=true&w=majority";
 
 try{
     const connect=await mongoose.connect(
