@@ -1,0 +1,36 @@
+.Navbar {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(6 41 46 / 93%);
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid var(--border-color);
+  z-index: 2;
+    .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-between;
+        .banner{
+            font-size: 32px;
+  background: -webkit-radial-gradient(#0491f6, #01ff12);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .right-side {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .logout {
+            font-size: 1.8rem;
+            display: flex;
+            color: aliceblue;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
