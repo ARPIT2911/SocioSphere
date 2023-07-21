@@ -23,7 +23,7 @@ const app = express();
 
 //middlewares
 app.options("*", (req, res) => {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.header("Access-Control-Allow-Origin", "https://socio-sphere.vercel.app");
   res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
   res.header("Access-Control-Allow-Credentials", "true");
   res.header(
@@ -34,7 +34,7 @@ app.options("*", (req, res) => {
 });
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://socio-sphere.vercel.app",
     methods: ["GET", "POST", "DELETE", "UPDATE", "PUT", "PATCH", "OPTIONS"],
     credentials: true,
   })
